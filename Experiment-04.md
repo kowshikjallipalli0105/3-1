@@ -150,7 +150,8 @@ $xname
 $equidist
 ``` 
 [1] TRUE 
-```attr(,”class”)
+```
+attr(,”class”)
 ``` 
 [1] “histogram”
  #### Boxplots
