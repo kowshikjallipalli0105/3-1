@@ -22,9 +22,9 @@ id,name,salary,start_date,dept
 8,Guru,722.5,2014-06-17,Finance 
 
 #### Read a CSV file
-> read.csv ()  function to read a CSV file available in your current working directory.
+> **read.csv()**  function to read a CSV file available in your current working directory.
 
 ```
 data<-read.csv(“input.csv”) 
- print(data)
+print(data)
 ```
