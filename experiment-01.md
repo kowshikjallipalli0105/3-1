@@ -18,6 +18,16 @@
 | `rm()`                 | Remove an item from memory.                                             |
 
 
+## R Code Examples
+
+```
+# Create a vector x with values
+x = c(8, 6, 7, 5, 3, 0, 9)
+x
+```
+##### Output:
+8 6 7 5 3 0 9
+
 ### Create a heartDeck vector representing 13 hearts (1) and 39 non-hearts (0)
 ```
 heartDeck = c(rep(1, 13), rep(0, 39)) 
