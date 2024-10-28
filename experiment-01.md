@@ -18,6 +18,6 @@
 | `rm()`                 | Remove an item from memory.                                             |
 
 
-# Create a heartDeck vector representing 13 hearts (1) and 39 non-hearts (0)
-heartDeck = c(rep(1, 13), rep(0, 39))
-heartDeck
+### Create a heartDeck vector representing 13 hearts (1) and 39 non-hearts (0)
+```heartDeck = c(rep(1, 13), rep(0, 39)) ```
+```heartDeck ```
