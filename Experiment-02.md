@@ -28,3 +28,57 @@ id,name,salary,start_date,dept
 data<-read.csv(“input.csv”) 
 print(data)
 ```
+#### Analyzing a CSV file 
+> **dim()**  See  dimensions  (#  of  rows/cols)  of  dataframe 
+> **ncol()**  Returns number of columns in the dataframe 
+> **nrow()** Returns number of rows in the dataframe 
+> **max()**  Finds the maximum value in the given numeric field 
+> **min()**  Finds the minimum value in the given numeric field
+
+
+```
+print (is.data.frame(data)) 
+print (dim(data)) 
+print (ncol(data)) 
+print (nrow(data)) 
+print (max(data$salary)
+print (min(data$salary)
+```
+
+#### Export to CSV file 
+In R, we can read data from files stored outside the R environment. We can also write data 
+into files which will be stored and accessed by the operating system. R can read and write into 
+various file formats like CSV, EXCEL, XML etc. 
+
+##### Setting the working directory 
+```
+print (getwd())
+```
+```
+setwd (“/MyPersonal/RLab”)
+```
+```
+print (getwd())
+```
+#### Create a dataframe 
+
+```
+Name<-c(“Nahida”, “Boston”, “Hubey”, “Justin”, “Peter”, “Rossow”, “Duminy”, “Roosevelt”) 
+Gender<-c(“Female”, “Male”, “Female”, “Male”, “Male”, “Female”, “male”, “Female”) 
+Score<-c(89,76,56,76,78,83,95,61) 
+Country<-c(“Argentina”, “USA”,”Britain”, “India”, “Japan”, “South Korea”, “Israel”, “UAE”)
+```
+```
+df<-data.frame(Name, Gender, Score, Country)
+df
+
+```
+
+####  Export the data frame to a CSV file 
+Export this data frame to a CSV file using write.csv function in R. The syntax used to 
+export a DataFrame to CSV in R: 
+> write.csv (DataFrame, Filename, Sep= “ “, na= “NA”, row.names = FALSE)
+
+```
+write.csv (df, “mycsvdata.csv”)
+```
