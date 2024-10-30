@@ -18,7 +18,7 @@
 | `rm()`                 | Remove an item from memory.                                             |
 
 
-## R Code Examples
+## R Code Example
 
 #### Create a vector x with values
 ```
